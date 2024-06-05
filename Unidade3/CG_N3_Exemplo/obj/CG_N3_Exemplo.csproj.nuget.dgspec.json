@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {}
+  },
+  "projects": {
+    "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\CG_Biblioteca.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\CG_Biblioteca.csproj",
+        "projectName": "CG_Biblioteca",
+        "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\CG_Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vinicius Mueller Lan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "StbImageSharp": {
+              "target": "Package",
+              "version": "[2.27.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+        "projectName": "CG_N3_Exemplo",
+        "projectPath": "C:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+        "packagesPath": "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\Unidade3\\CG_N3_Exemplo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vinicius Mueller Lan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\CG_Biblioteca.csproj": {
+                "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Downloads\\CG_2024_1-main\\CG_Biblioteca\\CG_Biblioteca.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )",
+              "autoReferenced": true
+            },
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "StbImageSharp": {
+              "target": "Package",
+              "version": "[2.27.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
