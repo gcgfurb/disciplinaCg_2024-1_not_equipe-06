@@ -22,6 +22,7 @@ namespace gcgcg
 
     private char rotuloAtual = '?';
     private Objeto objetoSelecionado = null;
+    private Objeto objetoDesenhando = null;
 
     private readonly float[] _sruEixos =
     [
@@ -133,7 +134,7 @@ namespace gcgcg
       }
       if (estadoTeclado.IsKeyPressed(Keys.Enter))
       {
-        objetoSelecionado = null;
+        objetoDesenhando = null;
       }
       if (estadoTeclado.IsKeyPressed(Keys.D))
       {
@@ -217,13 +218,12 @@ namespace gcgcg
         Ponto4D mousePonto = new Ponto4D(MousePosition.X, MousePosition.Y);
         Ponto4D sruPonto = Utilitario.NDC_TelaSRU(janelaLargura, janelaAltura, mousePonto);
 
-        if (objetoSelecionado != null)
+        if (objetoDesenhando != null)
         {
-          objetoSelecionado.PontosAdicionar(sruPonto);
+          objetoDesenhando.PontosAdicionar(sruPonto);
         } else {
-          List<Ponto4D> novoPoligono = new List<Ponto4D>();
-          novoPoligono.Add(sruPonto);
-          objetoSelecionado = new Poligono(mundo, ref rotuloAtual, novoPoligono);
+          List<Ponto4D> novoPoligono = [sruPonto];
+          objetoDesenhando = new Poligono(objetoSelecionado != null ? objetoSelecionado : mundo, ref rotuloAtual, novoPoligono);
         }
 
       }
