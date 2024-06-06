@@ -93,11 +93,6 @@ namespace gcgcg
       GL.EnableVertexAttribArray(0);
     }
 
-    public void ObjetoExcluir(Objeto objetoAtual)
-    {
-      paiRef.objetosLista.Remove(paiRef.GrafocenaBusca(objetoAtual.rotulo));
-    }
-
     public void Desenhar(Transformacao4D matrizGrafo)
     {
 #if CG_OpenGL && !CG_DirectX
@@ -147,17 +142,6 @@ namespace gcgcg
       ObjetoAtualizar();
     }
 
-    public void PontosAlterarMaisProximo(Ponto4D mouse)
-    {
-      PontosAlterar(mouse, PtoMaisProx(mouse));
-    }
-
-    public void PontosExcluirMaisProximo(Ponto4D mouse)
-    {
-      pontosLista.RemoveAt(PtoMaisProx(mouse));
-      ObjetoAtualizar();
-    }
-
     public void PontosLimpar()
     {
       pontosLista.Clear();
@@ -165,25 +149,6 @@ namespace gcgcg
     }
 
     #endregion
-
-    private int PtoMaisProx(Ponto4D mouse) {
-      int posicao = 0;
-      double ultimaDist = Distancia(pontosLista[0], mouse);
-      for (int i = 0; i < pontosLista.Count; i++)
-      {
-        if (Distancia(pontosLista[i], mouse) < ultimaDist)
-        {
-          ultimaDist = Distancia(pontosLista[i], mouse);
-          posicao = i;
-        }
-      }
-      return posicao;
-    }
-
-    private double Distancia(Ponto4D pto1, Ponto4D pto2)
-    {
-      return Math.Sqrt(Math.Pow((pto1.X - pto2.X),2) + Math.Pow((pto1.Y - pto2.Y),2));
-    }
 
     #region Objeto: Grafo de Cena
 

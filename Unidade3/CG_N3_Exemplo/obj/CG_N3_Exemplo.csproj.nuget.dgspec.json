@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {}
+    "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {}
   },
   "projects": {
-    "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\CG_Biblioteca.csproj": {
+    "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\CG_Biblioteca.csproj",
+        "projectUniqueName": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj",
         "projectName": "CG_Biblioteca",
-        "projectPath": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\CG_Biblioteca.csproj",
-        "packagesPath": "C:\\Users\\cleia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\obj\\",
+        "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Vinicius Mueller Lan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -72,30 +74,32 @@
         }
       }
     },
-    "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {
+    "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+        "projectUniqueName": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
         "projectName": "CG_N3_Exemplo",
-        "projectPath": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
-        "packagesPath": "C:\\Users\\cleia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\Unidade3\\CG_N3_Exemplo\\obj\\",
+        "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+        "packagesPath": "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cleia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Vinicius Mueller Lan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\CG_Biblioteca.csproj": {
-                "projectPath": "c:\\Users\\cleia\\OneDrive\\Área de Trabalho\\Ferramentas vini\\disciplinaCg_2024-1_not_equipe-06-main\\CG_Biblioteca\\CG_Biblioteca.csproj"
+              "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj": {
+                "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj"
               }
             }
           }

@@ -82,3 +82,46 @@ c:\Users\cleia\OneDrive\Área de Trabalho\Ferramentas vini\disciplinaCg_2024-1_n
 c:\Users\cleia\OneDrive\Área de Trabalho\Ferramentas vini\disciplinaCg_2024-1_not_equipe-06-main\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.pdb
 c:\Users\cleia\OneDrive\Área de Trabalho\Ferramentas vini\disciplinaCg_2024-1_not_equipe-06-main\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.genruntimeconfig.cache
 c:\Users\cleia\OneDrive\Área de Trabalho\Ferramentas vini\disciplinaCg_2024-1_not_equipe-06-main\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\ref\CG_N3_Exemplo.dll
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.csproj.AssemblyReference.cache
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.AssemblyInfoInputs.cache
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.AssemblyInfo.cs
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.csproj.CoreCompileInputs.cache
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.sourcelink.json
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.dll
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\refint\CG_N3_Exemplo.dll
+c:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.pdb
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shader.vert
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderAmarela.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderAzul.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderBranca.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderCiano.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderMagenta.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderVerde.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\Shaders\shaderVermelha.frag
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_N3_Exemplo.exe
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_N3_Exemplo.deps.json
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_N3_Exemplo.runtimeconfig.json
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_N3_Exemplo.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_N3_Exemplo.pdb
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Audio.OpenAL.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Compute.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Core.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Graphics.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Input.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Mathematics.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Windowing.Common.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Windowing.Desktop.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\OpenTK.Windowing.GraphicsLibraryFramework.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\StbImageSharp.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw-wayland.so.3.3
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\linux-x64\native\libglfw.so.3.3
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\osx-arm64\native\libglfw.3.dylib
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\osx-x64\native\libglfw.3.dylib
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\win-x64\native\glfw3.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\runtimes\win-x86\native\glfw3.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_Biblioteca.dll
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\bin\Debug\net8.0\CG_Biblioteca.pdb
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Ex.7F90A632.Up2Date
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\CG_N3_Exemplo.genruntimeconfig.cache
+C:\Users\Vinicius Mueller Lan\Documents\disciplinaCg_2024-1_not_equipe-06\Unidade3\CG_N3_Exemplo\obj\Debug\net8.0\ref\CG_N3_Exemplo.dll

@@ -22,7 +22,7 @@ namespace gcgcg
 
     private char rotuloAtual = '?';
     private Objeto objetoSelecionado = null;
-    private Objeto objetoDesenhando = null;
+    private Poligono objetoDesenhando = null;
 
     private readonly float[] _sruEixos =
     [
@@ -140,7 +140,7 @@ namespace gcgcg
       {
         if (objetoSelecionado != null)
         {
-          objetoSelecionado.ObjetoExcluir(objetoSelecionado);
+          objetoSelecionado.PontosLimpar();
           objetoSelecionado = null;
         }
       }
@@ -151,7 +151,7 @@ namespace gcgcg
         Ponto4D mousePonto = new Ponto4D(MousePosition.X, MousePosition.Y);
         Ponto4D sruPonto = Utilitario.NDC_TelaSRU(janelaLargura, janelaAltura, mousePonto);
 
-        objetoSelecionado.PontosAlterarMaisProximo(sruPonto);
+        ((Poligono)objetoSelecionado).PontosAlterarMaisProximo(sruPonto);
       }
       if (estadoTeclado.IsKeyPressed(Keys.E) && objetoSelecionado != null)
       {
@@ -160,7 +160,7 @@ namespace gcgcg
         Ponto4D mousePonto = new Ponto4D(MousePosition.X, MousePosition.Y);
         Ponto4D sruPonto = Utilitario.NDC_TelaSRU(janelaLargura, janelaAltura, mousePonto);
 
-        objetoSelecionado.PontosExcluirMaisProximo(sruPonto);
+        ((Poligono)objetoSelecionado).PontosExcluirMaisProximo(sruPonto);
       }
       if (estadoTeclado.IsKeyPressed(Keys.R) && objetoSelecionado != null)
         objetoSelecionado.ShaderObjeto = _shaderVermelha;
@@ -170,7 +170,7 @@ namespace gcgcg
       if (estadoTeclado.IsKeyPressed(Keys.B) && objetoSelecionado != null)
         objetoSelecionado.ShaderObjeto = _shaderAzul;
       if (estadoTeclado.IsKeyPressed(Keys.P) && objetoSelecionado != null)
-        Console.WriteLine(objetoSelecionado.ToString());
+        ((Poligono)objetoSelecionado).AlterarPrimitiva();
       if (estadoTeclado.IsKeyPressed(Keys.M) && objetoSelecionado != null)
         objetoSelecionado.MatrizImprimir();
       //TODO: não está atualizando a BBox com as transformações geométricas
