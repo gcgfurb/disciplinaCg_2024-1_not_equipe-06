@@ -515,34 +515,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\": {}
+    "C:\\Users\\cleia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+      "projectUniqueName": "C:\\Users\\cleia\\OneDrive\\Documentos\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
       "projectName": "CG_N3_Exemplo",
-      "projectPath": "C:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
-      "packagesPath": "C:\\Users\\Vinicius Mueller Lan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\obj\\",
+      "projectPath": "C:\\Users\\cleia\\OneDrive\\Documentos\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\CG_N3_Exemplo.csproj",
+      "packagesPath": "C:\\Users\\cleia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cleia\\OneDrive\\Documentos\\disciplinaCg_2024-1_not_equipe-06\\Unidade3\\CG_N3_Exemplo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vinicius Mueller Lan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\cleia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj": {
-              "projectPath": "c:\\Users\\Vinicius Mueller Lan\\Documents\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj"
+            "c:\\Users\\cleia\\OneDrive\\Documentos\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj": {
+              "projectPath": "c:\\Users\\cleia\\OneDrive\\Documentos\\disciplinaCg_2024-1_not_equipe-06\\CG_Biblioteca\\CG_Biblioteca.csproj"
             }
           }
         }
