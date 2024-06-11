@@ -1,6 +1,13 @@
-@startuml
+@startuml Mundo
 class Mundo {
     + Mundo(gameWindowSettings:GameWindowSettings, nativeWindowSettings:NativeWindowSettings)
+    + <<override>> OnLoad() : void
+    + <<override>> OnRenderFrame(e:FrameEventArgs) : void
+    + <<override>> OnUpdateFrame(e:FrameEventArgs) : void
+    + <<override>> OnResize(e:ResizeEventArgs ) : void
+    + <<override>> OnUnload() : void
+    - Gizmo_Sru3D() : void
+    - Gizmo_BBox() : void 
 }
 GameWindow <|-- Mundo
 @enduml
