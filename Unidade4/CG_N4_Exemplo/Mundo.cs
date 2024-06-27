@@ -48,7 +48,6 @@ namespace gcgcg
     private Cubo _centralCube;
     private Cubo _orbitingCube;
     private float orbitSpeed = 0.15f;
-    private Texture _texture;
     private Shader _shader;
     
     public Mundo(GameWindowSettings gameWindowSettings, NativeWindowSettings nativeWindowSettings)
@@ -94,23 +93,15 @@ namespace gcgcg
       GL.EnableVertexAttribArray(0);
       #endregion
 
-
       _shader = new Shader("Shaders/shaderTexture.vert", "Shaders/shaderTexture.frag");
-      _shader.Use();
 
-      var vertexLocation = _shader.GetAttribLocation("aPosition");
-      GL.EnableVertexAttribArray(vertexLocation);
-      GL.VertexAttribPointer(vertexLocation, 3, VertexAttribPointerType.Float, false, 5 * sizeof(float), 0);
-
-      var texCoordLocation = _shader.GetAttribLocation("aTexCoord");
-      GL.EnableVertexAttribArray(texCoordLocation);
-      GL.VertexAttribPointer(texCoordLocation, 2, VertexAttribPointerType.Float, false, 5 * sizeof(float), 3 * sizeof(float));
-
-      _texture = Texture.LoadFromFile("Shaders/Mauros.jpg");
-      _texture.Use(TextureUnit.Texture0);
-      
       #region Objeto: Cubo
       _centralCube = new Cubo(mundo, ref rotuloNovo);
+      _centralCube.MatrizEscalaXYZ(1, 1, 1);
+      _centralCube._shaderObjeto = _shader;
+      _centralCube.texture = Texture.LoadFromFile("Shaders/grupo.jpg");
+      _centralCube.ObjetoAtualizar();
+      
       #endregion
       // objetoSelecionado.MatrizEscalaXYZ(0.2, 0.2, 0.2);
 
@@ -132,10 +123,7 @@ namespace gcgcg
 
       GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
 
-      var model = new Transformacao4D();
-      _texture.Use(TextureUnit.Texture0);
-      _shader.Use();
-      mundo.Desenhar(model, _camera);
+      mundo.Desenhar(new Transformacao4D(), _camera);
 
 #if CG_Gizmo      
       Gizmo_Sru3D();
@@ -161,12 +149,6 @@ namespace gcgcg
         
       const float cameraSpeed = 3.5f;
       const float sensitivity = 1f;
-      
-      var front = Vector3.Normalize(_origin - _camera.Position);
-      
-      var right = Vector3.Normalize(Vector3.Cross(front, Vector3.UnitY));
-      
-      var up = Vector3.Normalize(Vector3.Cross(right, front));
 
       if (estadoTeclado.IsKeyPressed(Keys.Space))
         _centralCube.atualizaPrimitiva();
@@ -193,6 +175,12 @@ namespace gcgcg
 
       #region  Mouse
       var mouse = MouseState;
+      
+      var front = Vector3.Normalize(_origin - _camera.Position);
+      
+      var right = Vector3.Normalize(Vector3.Cross(front, Vector3.UnitY));
+      
+      var up = Vector3.Normalize(Vector3.Cross(right, front));
 
       if (_firstMove)
       {
@@ -205,17 +193,18 @@ namespace gcgcg
         var deltaY = mouse.Y - _lastPos.Y;
         _lastPos = new Vector2(mouse.X, mouse.Y);
 
-        // Atualizar o yaw baseado no movimento e sensibilidade
         _camera.Yaw += deltaX * sensitivity;
+        _camera.Pitch -= deltaY * sensitivity;
+        _camera.Position = _camera.Front * -5;
 
         // Calcular o movimento do vetor baseado nos vetores right, front e up (Movimento A/D)
-        var movement = (right * deltaX + front * deltaY) * sensitivity * cameraSpeed * (float)e.Time;
+        // var movement = (right * deltaX + front * deltaY) * sensitivity * cameraSpeed * (float)e.Time;
 
-        // Atualizar a posição da câmera
-        _camera.Position += movement;
+        // // Atualizar a posição da câmera
+        // _camera.Position += movement;
 
-        // Adicionar movimento vertical baseado no deltaY e vetor up (movimento Shift/Space)
-        _camera.Position += up * deltaY * sensitivity * cameraSpeed * (float)e.Time;
+        // // Adicionar movimento vertical baseado no deltaY e vetor up (movimento Shift/Space)
+        // _camera.Position += up * deltaY * sensitivity * cameraSpeed * (float)e.Time;
       }
 
       #endregion
