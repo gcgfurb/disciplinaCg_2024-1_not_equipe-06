@@ -72,9 +72,9 @@ namespace CG_Biblioteca
       return (yi - y1) / (y2 - y1);
     }
 
-    public static double InterpolarRetaValor(double x1, double x2, double ti)
+    public static double InterpolarRetaValor(double valor1, double valor2, double ti)
     {
-      return x1 + (x2 - x1) * ti;
+      return valor1 + (valor2 - valor1) * ti;
     }
 
     //TODO: não implementado os casos especiais

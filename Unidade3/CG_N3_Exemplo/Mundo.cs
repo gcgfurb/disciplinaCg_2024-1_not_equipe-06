@@ -129,13 +129,11 @@ namespace gcgcg
         if (objetoSelecionado == null)
           objetoSelecionado = mundo;
         // objetoSelecionado.shaderObjeto = _shaderBranca;
-        
         objetoSelecionado = mundo.GrafocenaBuscaProximo(objetoSelecionado);
         // objetoSelecionado.shaderObjeto = _shaderAmarela;
       }
       if (estadoTeclado.IsKeyPressed(Keys.Enter))
       {
-        objetoSelecionado = null;
         objetoDesenhando = null;
       }
       if (estadoTeclado.IsKeyPressed(Keys.D))
@@ -228,16 +226,6 @@ namespace gcgcg
           objetoDesenhando = new Poligono(objetoSelecionado != null ? objetoSelecionado : mundo, ref rotuloAtual, novoPoligono);
         }
 
-      }
-      if (MouseState.IsButtonDown(MouseButton.Right)) {
-        if (objetoDesenhando != null)
-        {          
-          int janelaLargura = ClientSize.X;
-          int janelaAltura = ClientSize.Y;
-          Ponto4D mousePonto = new Ponto4D(MousePosition.X, MousePosition.Y);
-          Ponto4D sruPonto = Utilitario.NDC_TelaSRU(janelaLargura, janelaAltura, mousePonto);
-          objetoDesenhando.PontosAlterarMaisProximo(sruPonto);
-        }
       }
       // if (MouseState.IsButtonReleased(MouseButton.Right))
       // {
