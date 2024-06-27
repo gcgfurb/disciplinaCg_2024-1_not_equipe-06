@@ -1,4 +1,4 @@
-@startuml
+@startuml Program
 class Program <<static>> {
 }
 @enduml

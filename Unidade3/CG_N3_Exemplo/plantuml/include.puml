@@ -1,4 +1,4 @@
-@startuml
+@startuml Include
 !include ./Poligono.puml
 !include ./Mundo.puml
 !include ./Objeto.puml

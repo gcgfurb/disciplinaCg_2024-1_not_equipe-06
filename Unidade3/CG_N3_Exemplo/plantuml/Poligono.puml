@@ -1,7 +1,14 @@
-@startuml
+@startuml Poligono
 class Poligono {
     + Poligono(_paiRef:Objeto, _rotulo:char, pontosPoligono:List<Ponto4D>)
+    - Atualizar() : void
     + <<override>> ToString() : string
+    - PtoMaisProx(mouse:Ponto4D) : integer
+    - Distancia(pto1:Ponto4D, pto2:Ponto4D) : double
+    + PontosAlterarMaisProximo(mouse:Ponto4D) : void 
+    + PontosExcluirMaisProximo(mouse:Ponto4D) : void
+    + AlterarPrimitiva() : void
+         
 }
 Objeto <|-- Poligono
 @enduml

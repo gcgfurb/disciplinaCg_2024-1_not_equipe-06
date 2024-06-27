@@ -1,4 +1,4 @@
-@startuml
+@startuml SrPalito
 class SrPalito {
     + SrPalito(paiRef:Objeto, _rotulo:char)
     + Atualizar() : void

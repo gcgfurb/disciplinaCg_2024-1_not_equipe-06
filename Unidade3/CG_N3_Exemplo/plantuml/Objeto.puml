@@ -1,10 +1,15 @@
-@startuml
+@startuml Objeto
 class Objeto {
+    - <<readonly>> Char rotulo
+    + Objeto paiRef
+    - int _vertexBufferObject
+    - int _vertexArrayObject
     + PrimitivaTamanho : float <<get>> <<set>>
     + PontosListaTamanho : int <<get>>
+    + TrocaEixoRotacao(eixo:char) : void 
     + Bbox() : BBox
-    + TrocaEixoRotacao(eixo:char) : void
     + Objeto(_paiRef:Objeto, _rotulo:char, objetoFilho:Objeto)
+    - ObjetoAdicionar(objetoFilho:Objeto)
     + ObjetoAtualizar() : void
     + Desenhar(matrizGrafo:Transformacao4D) : void
     + FilhoAdicionar(filho:Objeto) : void
@@ -24,6 +29,7 @@ class Objeto {
     + MatrizRotacao(angulo:double) : void
     + MatrizRotacaoZBBox(angulo:double) : void
     + OnUnload() : void
+    + ImprimeToString() : string
 }
 Objeto --> "PrimitivaTipo" PrimitiveType
 Objeto --> "ShaderObjeto" Shader
