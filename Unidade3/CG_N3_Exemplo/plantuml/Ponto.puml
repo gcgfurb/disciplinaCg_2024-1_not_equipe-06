@@ -1,4 +1,4 @@
-@startuml Ponto
+@startuml
 class Ponto {
     + Ponto(paiRef:Objeto, _rotulo:char)
     + Ponto(paiRef:Objeto, _rotulo:char, pto:Ponto4D)
